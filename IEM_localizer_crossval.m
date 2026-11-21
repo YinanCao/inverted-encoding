@@ -233,7 +233,9 @@ for loc = 1:3
 end
 sgtitle('Reconstructed channel responses, 140-170 ms')
 
-% Note: with 3 equally spaced channels, the three read-outs (cosine
-% similarity, projection, raw channel response) pick the same winning
-% location on every trial, so their accuracies are identical. They differ
-% only when more channels are used (change theta and the basis set).
+% Note: with 3 equally spaced channels, the three read-out METHODS (cosine
+% similarity, projection, raw channel response; 2nd dimension of
+% decoding_acc) pick the same winning location on every trial, so they give
+% identical accuracy. They differ only when more channels are used (change
+% theta and the basis set). This is not about the per-location curves
+% (top, left, right; 3rd dimension): those can still differ from each other.
