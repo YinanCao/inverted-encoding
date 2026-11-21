@@ -40,7 +40,7 @@ Each slim file holds `meg_trl` (sensor x time x trial, -100 to 500 ms, 100 Hz), 
 - `IEM_crossval`: channel responses, channel x time x trial.
 - `timelist`, `trldesign`, `IEMconfig`, `dim_info`.
 
-The script also plots decoding accuracy over time and the mean channel responses at 140 to 170 ms. With 3 equally spaced channels the three read-outs give identical accuracy.
+The script also plots decoding accuracy over time and the mean channel responses at 140 to 170 ms. With 3 equally spaced channels the three read-outs (cosine similarity, projection, raw channel response) give identical accuracy.
 
 ## Notes
 
